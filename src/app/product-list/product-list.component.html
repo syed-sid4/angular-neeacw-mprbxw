@@ -1,13 +1,16 @@
 <h2>Products</h2>
+<div>
+  	
+      <img src="../../assets/images/iph.PNG" alt="Phone">
+		
+</div>
 <div *ngFor="let product of products; index as productId">
   <h3>
     <a [title]="product.name+' Details'"[routerLink]="['/products',productId]">
         {{product.name}}
         
     </a>
-    <a>
-   <img src="./assets/img/IMG_20190823_192311.jpg"> 
-</a>
+    
   </h3>
   <p *ngIf="product.description">
     Description : {{ product.description}}
