@@ -1,23 +1,23 @@
 export const products = [
   {
     name: 'iPhone',
-    price: 799,
-    description: 'A large phone with one of the best screens'
+    price: 50000,
+    description: 'The best phone'
   },
   {
-    name: 'Samsung',
-    price: 699,
-    description: 'A great phone with one of the best cameras'
+    name: 'SAMSUNG',
+    price: 25000,
+    description: 'Andriod OS Mobile'
   },
   {
     name: 'Xiomi',
-    price: 299,
-    description: ''
+    price: 10000,
+    description: 'MI UI Service'
   },
   {
-    name: 'Standard',
-    price: 299,
-    description: ''
+    name: 'Micromax',
+    price: 2999,
+    description: 'Feature Phone'
   }
 
 ];
